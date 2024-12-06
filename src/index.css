@@ -1,0 +1,78 @@
+/* index.css */
+
+/* ROI Name Header */
+.roi-name-header {
+  background-color: #fafafa !important; /* Neutral light gray */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Merchants by EOY Header */
+.merchants-eoy-header {
+  background-color: #D3D3D3 !important; /* Light orange */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Sales Volume Group Header */
+.sales-volume-group {
+  background-color: #DCDCDC !important; /* Light blue */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Sales Volume Child Headers */
+.sales-volume-child {
+  background-color: #DCDCDC !important; /* Lighter blue */
+  text-align: center;
+}
+
+/* Total Transactions Group Header */
+.total-transactions-group {
+  background-color: #D3D3D3 !important; /* Light orange */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Total Transactions Child Headers */
+.total-transactions-child {
+  background-color: #D3D3D3 !important; /* Lighter orange */
+  text-align: center;
+}
+
+/* Projected P&L Group Header */
+.projected-pl-group {
+  background-color: #DCDCDC !important; /* Light green */
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Projected P&L Child Headers */
+.projected-pl-child {
+  background-color: #DCDCDC !important; /* Lighter green */
+  text-align: center;
+}
+
+/* Ensure header cells span full width */
+.ant-table-thead > tr > th {
+  vertical-align: middle;
+}
+
+/* Optional: Adjust header text color for better contrast */
+.roi-name-header,
+.merchants-eoy-header,
+.sales-volume-group,
+.total-transactions-group,
+.projected-pl-group,
+.sales-volume-child,
+.total-transactions-child,
+.projected-pl-child {
+  color: #000000; /* Black text */
+}
+
+/* Optional: Add borders between groups */
+.sales-volume-group,
+.total-transactions-group,
+.projected-pl-group {
+  border-right: 1px solid #d9d9d9;
+}
